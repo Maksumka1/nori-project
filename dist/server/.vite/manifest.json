@@ -1,0 +1,106 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "C:/Users/marke/OneDrive/Desktop/nori/src/styles.css": {
+    "file": "assets/styles-CfafB2vo.css",
+    "src": "C:/Users/marke/OneDrive/Desktop/nori/src/styles.css"
+  },
+  "_server-IilahGsN.js": {
+    "file": "assets/server-IilahGsN.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "src/router.tsx",
+      "src/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "_worker-entry-BLXx6qqo.js": {
+    "file": "assets/worker-entry-BLXx6qqo.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-IilahGsN.js"
+    ]
+  },
+  "src/assets/dish-burger.jpg": {
+    "file": "assets/dish-burger-DBLKNeyo.jpg",
+    "src": "src/assets/dish-burger.jpg"
+  },
+  "src/assets/dish-maki.jpg": {
+    "file": "assets/dish-maki-D-Mmj5xO.jpg",
+    "src": "src/assets/dish-maki.jpg"
+  },
+  "src/assets/dish-nigiri.jpg": {
+    "file": "assets/dish-nigiri-hh6vMsoZ.jpg",
+    "src": "src/assets/dish-nigiri.jpg"
+  },
+  "src/assets/dish-warm.jpg": {
+    "file": "assets/dish-warm-z1oNcE5U.jpg",
+    "src": "src/assets/dish-warm.jpg"
+  },
+  "src/assets/hero-sushi.jpg": {
+    "file": "assets/hero-sushi-UHgvtwuj.jpg",
+    "src": "src/assets/hero-sushi.jpg"
+  },
+  "src/router.tsx": {
+    "file": "assets/router-DWqdZQZc.js",
+    "name": "router",
+    "src": "src/router.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-IilahGsN.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-CfafB2vo.css"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-CCJ18lTB.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-IilahGsN.js"
+    ],
+    "assets": [
+      "assets/hero-sushi-UHgvtwuj.jpg",
+      "assets/dish-nigiri-hh6vMsoZ.jpg",
+      "assets/dish-burger-DBLKNeyo.jpg",
+      "assets/dish-maki-D-Mmj5xO.jpg",
+      "assets/dish-warm-z1oNcE5U.jpg"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-C6_0surZ.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BLXx6qqo.js",
+      "_server-IilahGsN.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-BNCjv-8k.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "server.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-BLXx6qqo.js"
+    ]
+  }
+}
