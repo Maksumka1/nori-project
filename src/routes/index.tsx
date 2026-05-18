@@ -1,24 +1,9 @@
-import { createFileRoute } from "@tanstack/react-router";
 import heroImg from "@/assets/hero-sushi.jpg";
 import dishNigiri from "@/assets/dish-nigiri.jpg";
 import dishBurger from "@/assets/dish-burger.jpg";
 import dishMaki from "@/assets/dish-maki.jpg";
 import dishWarm from "@/assets/dish-warm.jpg";
 import { Phone, MapPin, Clock, Star, ChevronRight } from "lucide-react";
-
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "NORI — Суші-бар в Івано-Франківську" },
-      { name: "description", content: "Преміум суші-бар NORI в Івано-Франківську. Свіжа риба, авторські роли, доставка. Рейтинг 4.9 ⭐ за 582 відгуками." },
-      { property: "og:title", content: "NORI — Преміум суші-бар" },
-      { property: "og:description", content: "Свіжа риба, авторські роли, безконтактна доставка. вул. Михайла Мулика, 7, Івано-Франківськ." },
-      { property: "og:type", content: "restaurant" },
-    ],
-    links: [{ rel: "canonical", href: "/" }],
-  }),
-  component: Index,
-});
 
 const dishes = [
   { name: "Філадельфія Преміум", jp: "フィラデルフィア", desc: "Лосось, крем-сир, авокадо, огірок, ікра тобіко.", price: "320 ₴", img: dishMaki },
@@ -321,3 +306,5 @@ function Index() {
     </div>
   );
 }
+
+export default Index;
